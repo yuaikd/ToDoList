@@ -1,4 +1,4 @@
-✅ Lista Zadań (ToDo List)
+# ✅ Lista Zadań (ToDo List)
 📌 Opis projektu
 
 Aplikacja Lista Zadań to program typu Windows Forms umożliwiający tworzenie, edytowanie i zarządzanie zadaniami w przejrzysty sposób.
