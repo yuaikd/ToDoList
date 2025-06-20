@@ -101,7 +101,7 @@ namespace to_do_list
         {
             if (toDoListView.Columns[e.ColumnIndex].Name == "Done")
             {
-                // Możesz tu dodać logikę np. przekreślenia tekstu
+                
             }
         }
 
