@@ -21,7 +21,10 @@ namespace to_do_list
         bool isEditing = false;
         private void Form1_Load(object sender, EventArgs e)
         {
-           
+            todoList.Columns.Add("Done", typeof(bool));
+            toDoListView.DataSource = todoList;
+            toDoListView.Columns["Done"].HeaderText = "Wykonane";
+            toDoListView.Columns["Done"].Width = 60;
             todoList.Columns.Add("Title");
             todoList.Columns.Add("Description");
 
@@ -43,7 +46,7 @@ namespace to_do_list
             }
             else
             {
-                todoList.Rows.Add(titleTextBox.Text, descriptionTextBox.Text);
+                todoList.Rows.Add(false,titleTextBox.Text, descriptionTextBox.Text);
             }
             titleTextBox.Text = "";
             descriptionTextBox.Text = "";
@@ -93,6 +96,22 @@ namespace to_do_list
                     MessageBox.Show("Lista zadań została zapisana.", "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+        }
+        private void toDoListView_CellValueChanged(object sender, DataGridViewCellEventArgs e)
+        {
+            if (toDoListView.Columns[e.ColumnIndex].Name == "Done")
+            {
+                // Możesz tu dodać logikę np. przekreślenia tekstu
+            }
+        }
+
+        private void toDoListView_CurrentCellDirtyStateChanged(object sender, EventArgs e)
+        {
+            if (toDoListView.IsCurrentCellDirty)
+            {
+                toDoListView.CommitEdit(DataGridViewDataErrorContexts.Commit);
+            }
+            
         }
     }
     }

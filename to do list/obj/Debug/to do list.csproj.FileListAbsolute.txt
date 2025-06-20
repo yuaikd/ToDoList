@@ -1,0 +1,10 @@
+C:\Users\igort\Downloads\ToDoList-master\to do list\bin\Debug\to do list.exe.config
+C:\Users\igort\Downloads\ToDoList-master\to do list\bin\Debug\to do list.exe
+C:\Users\igort\Downloads\ToDoList-master\to do list\bin\Debug\to do list.pdb
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to do list.csproj.AssemblyReference.cache
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to_do_list.Form1.resources
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to_do_list.Properties.Resources.resources
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to do list.csproj.GenerateResource.cache
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to do list.csproj.CoreCompileInputs.cache
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to do list.exe
+C:\Users\igort\Downloads\ToDoList-master\to do list\obj\Debug\to do list.pdb
